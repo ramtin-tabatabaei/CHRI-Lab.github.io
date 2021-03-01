@@ -1,0 +1,2159 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Wafa Johal">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Research group on Human-Robot Interaction at the School of CSE UNSW">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#1565c0">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.bc52e59860ed9d0d40c38a5d2b1f4f46.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="computational human-robot interaction lab">
+  
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_180x180_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://CHRI-Lab.github.io/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="computational human-robot interaction lab">
+  <meta property="og:url" content="https://CHRI-Lab.github.io/">
+  <meta property="og:title" content="computational human-robot interaction lab">
+  <meta property="og:description" content="Research group on Human-Robot Interaction at the School of CSE UNSW"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://CHRI-Lab.github.io/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://CHRI-Lab.github.io/",
+  "name": "UNSW",
+  "logo": "https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_192x192_fill_lanczos_center_2.png",
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 Barker St",
+    "addressLocality": "Sydney",
+    "addressRegion": "NSW",
+    "postalCode": "2033",
+    "addressCountry": "AU"
+  },
+  
+  "telephone": "888 888 88 88",
+  "url": "https://CHRI-Lab.github.io/"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>computational human-robot interaction lab</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7d03e63b5744a386cc8df717c3e2c75a.js"></script>
+
+  
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/prospective"><span>Prospective Collaborators</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="welcome" class="home-section wg-hero  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-md-6 order-md-1 text-center text-md-left">
+
+
+    <h1 class="hero-title">
+      
+    </h1>
+
+    
+    <div class="hero-lead"><p>The Computational Human-Robot Interaction (CHRI) research group at UNSW is headed by <a href="wafa.johal.org/">Wafa Johal</a> and studies the computational and social aspects of interactions between humans and robots. Our mission is to understand and investigate how humans and robots can learn together (robots learning from humans and humans learning from robots).</p>
+<p>Research interests include: human-computer/robot interaction; AI and machine learning for human-robot interaction (HRI); robots for learning; robot assistants for cognitive tasks; robot social  reasoning; nonverbal communication in HRI; and behavioural signal processing for interaction design.</p>
+</div>
+    
+
+    
+    
+
+    
+    
+
+  
+  
+  </div>
+  <div class="col-12 mx-auto col-md-6 order-md-2 hero-media">
+    
+    
+      
+      <img src="/media/logo_1.png" alt="">
+    
+  </div>
+</div>
+
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="news" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Recent News</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/sydchi_accepted/">The SydCHI Local Chapter just got accepted</a>
+  </div>
+
+  
+  <a href="/post/sydchi_accepted/" class="summary-link">
+    <div class="article-style">
+      <p>Super excited about the new SydCHI local chapter. Stay tune!</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/hri2020_demo_award/">Best Demo Award at HRI 2020!</a>
+  </div>
+
+  
+  <a href="/post/hri2020_demo_award/" class="summary-link">
+    <div class="article-style">
+      <p>Our international team received the best demo award at @HRI2020 @dillenbo @AnaraSandy! #SNSF #CoKaz http://humanrobotinteraction.org/2020/best-paper-awards/</p>
+    </div>
+  </a>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cowriting_kazakh/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    0 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/hri2020_accepted/">[HRI2020 Paper Accepted!] on Transposing CoWriter to Learning the New Kazakh Alphabet</a>
+  </div>
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/best_reviewer_icce2019/">Best Reviewer Award for ICCE</a>
+  </div>
+
+  
+  <a href="/post/best_reviewer_icce2019/" class="summary-link">
+    <div class="article-style">
+      <p>I am hounoured that the 27th International Conference on Computers in Education awarded me with the Best Reviewer Award.
+http://ilt.nutn.edu.tw/icce2019/04_Best%20Reviewer%20Award.html</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Jan 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <div class="section-subheading article-title mb-1 mt-3">
+    <a href="/post/roman2019/">4 Full Papers Presented @RoMan 2019, New Delhi!</a>
+  </div>
+
+  
+  <a href="/post/roman2019/" class="summary-link">
+    <div class="article-style">
+      <p>I was very glad to meet my colleagues and friends at RoMan. We presented four papers and enjoyed a day off in Jaipur.</p>
+    </div>
+  </a>
+  
+
+  
+
+</div>
+
+    
+  
+
+  
+  
+  
+
+    
+    
+      
+    
+
+    
+
+    <div class="see-all">
+      <a href="/post/">
+        See all posts
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="publications" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Recent Publications</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 ">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/ingle-2021/" >The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load</a>
+    </div>
+
+    
+    <a href="/publication/ingle-2021/"  class="summary-link">
+      <div class="article-style">
+        Previous research in psychology has found that human faces have the capability of being more distracting under high perceptual load …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/daisy-ingle/">Daisy Ingle</a></span>, <span >
+      <a href="/author/nadine-marcus/">Nadine Marcus</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/ingle-2021/ingle-2021.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/ingle-2021/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3434074.3447137" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/ingle-2021/" >
+      <img src="/publication/ingle-2021/featured_hu5a2d3fd7fbceae8cfc82de40c4310fab_341714_6a5220f300df3089758af46983a28b83.png" data-src="/publication/ingle-2021/featured_hu5a2d3fd7fbceae8cfc82de40c4310fab_341714_150x0_resize_lanczos_2.png" alt="The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/obaid_hai_2020/" >Domestic Drones: Context of Use in Research Literature</a>
+    </div>
+
+    
+    <a href="/publication/obaid_hai_2020/"  class="summary-link">
+      <div class="article-style">
+        Domestic robotic entities are on the rise, out of which, domestic drones are taking place in our society as one of the upcoming …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/mohammad-obaid/">Mohammad Obaid</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/omar-mubin/">Omar Mubin</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/files/papers/DomesticDrone_HAI2020.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/obaid_hai_2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://drive.google.com/file/d/1fxB-qDHidb2tngBqicKmd7B7OseKPfB3/view?usp=sharing" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/obaid_hai_2020/" >
+      <img src="/publication/obaid_hai_2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_b5c835540b11b3ce7c852dbdc8056aa4.jpg" data-src="/publication/obaid_hai_2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_150x0_resize_q75_lanczos.jpg" alt="Domestic Drones: Context of Use in Research Literature" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/neto-using-2020/" >Using Tabletop Robots to promote Inclusive Classroom Experiences</a>
+    </div>
+
+    
+    <a href="/publication/neto-using-2020/"  class="summary-link">
+      <div class="article-style">
+        Geometry and handwriting rely heavily on the visual representation of basic shapes. It can become challenging for students with visual …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/isabel-neto/">Isabel Neto</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/marta-couto/">Marta Couto</a></span>, <span >
+      <a href="/author/hugo-nicolau/">Hugo Nicolau</a></span>, <span >
+      <a href="/author/ana-paiva/">Ana Paiva</a></span>, <span >
+      <a href="/author/arzu-guneysu/">Arzu Guneysu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://wafa.johal.org/files/papers/cellulo_IDC20_inclusiveLearning.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/neto-using-2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cellulo/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/neto-using-2020/" >
+      <img src="/publication/neto-using-2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_b5c835540b11b3ce7c852dbdc8056aa4.jpg" data-src="/publication/neto-using-2020/featured_hu13907bfacf669575faa04d7a0ea54fdc_63251_150x0_resize_q75_lanczos.jpg" alt="Using Tabletop Robots to promote Inclusive Classroom Experiences" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/zhanel-hri-2020-video/" >CoWriting Kazakh: Learning a New Script with a Robot - Video </a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/zhanel-zhexenova/">Zhanel Zhexenova</a></span>, <span >
+      <a href="/author/bolat-tleubayev/">Bolat Tleubayev</a></span>, <span >
+      <a href="/author/aida-zhanatkyzy/">Aida Zhanatkyzy</a></span>, <span >
+      <a href="/author/aizada-turarova/">Aizada Turarova</a></span>, <span >
+      <a href="/author/zhansaule-telisheva/">Zhansaule Telisheva</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>, <span >
+      <a href="/author/anara-sandygulova/">Anara Sandygulova</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/zhanel-hri-2020-video/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/cowriting_kazakh/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/zhanel-hri-2020-video/" >
+      <img src="/publication/zhanel-hri-2020-video/featured_hu72ecd29901ce9d29049d2ea9aa6ad63b_599925_3248d1017b6f291605689c66b60a2487.png" data-src="/publication/zhanel-hri-2020-video/featured_hu72ecd29901ce9d29049d2ea9aa6ad63b_599925_150x0_resize_lanczos_2.png" alt="CoWriting Kazakh: Learning a New Script with a Robot - Video " class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/zhanel-2020/" >A Comparison of Social Robot to Tablet and Teacher in a New Script Learning Context</a>
+    </div>
+
+    
+    <a href="/publication/zhanel-2020/"  class="summary-link">
+      <div class="article-style">
+        This research occurred in a special context where Kazakhstan&rsquo;s recent decision to switch from Cyrillic to the Latin-based …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      <a href="/author/zhanel-zhexenova/">Zhanel Zhexenova</a></span>, <span >
+      <a href="/author/aida-amirova/">Aida Amirova</a></span>, <span >
+      <a href="/author/manshuk-abdikarimova/">Manshuk Abdikarimova</a></span>, <span >
+      <a href="/author/kuanysh-kudaibergenov/">Kuanysh Kudaibergenov</a></span>, <span >
+      <a href="/author/nurakhmet-baimakhan/">Nurakhmet Baimakhan</a></span>, <span >
+      <a href="/author/bolat-tleubayev/">Bolat Tleubayev</a></span>, <span >
+      <a href="/author/thibault-asselborn/">Thibault Asselborn</a></span>, <span >
+      <a href="/author/wafa-johal/">Wafa Johal</a></span>, <span >
+      <a href="/author/pierre-dillenbourg/">Pierre Dillenbourg</a></span>, <span >
+      <a href="/author/anna-cohenmiller/">Anna CohenMiller</a></span>, <span >
+      <a href="/author/anara-sandygulova/">Anara Sandygulova</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://www.frontiersin.org/article/10.3389/frobt.2020.00099" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/zhanel-2020/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/frobt.2020.00099" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/publication/zhanel-2020/" >
+      <img src="/publication/zhanel-2020/featured_hu00fba9a945e7499ef6f9431cd7f442f5_142236_8fed701a9296a82d2d9a292d3e2ea7af.jpg" data-src="/publication/zhanel-2020/featured_hu00fba9a945e7499ef6f9431cd7f442f5_142236_150x0_resize_q75_lanczos.jpg" alt="A Comparison of Social Robot to Tablet and Teacher in a New Script Learning Context" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+    
+  
+
+  
+  
+  
+
+    
+    
+      
+    
+
+    
+
+    <div class="see-all">
+      <a href="/publication/">
+        See all publications
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © Research Group in HRI at CSE UNSW
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/en/js/wowchemy.min.2482b05220ab5a1288060cb689889796.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
