@@ -606,14 +606,6 @@ collaborative state of the group.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Digital Pens</title>
-      <link>https://CHRI-Lab.github.io/project/handwriting/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://CHRI-Lab.github.io/project/handwriting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Find Your Voice</title>
       <link>https://CHRI-Lab.github.io/project/fyv/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -862,6 +854,19 @@ Since my arrival on the CoWriter project, we initiated a project on diagnosis of
 via a graphic tablet (Wacom). Our first results using RNN are very promising (a patent and a journal paper have
 been submitted). This work will later on be integrated in the CoWriter handwriting activities to adapt the learning
 path according to the diagnosis and the learner’s handwriting difficulties.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Digital Pen</title>
+      <link>https://CHRI-Lab.github.io/project/handwriting/digital_pen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/project/handwriting/digital_pen/</guid>
+      <description>&lt;h1 id=&#34;call-for-participants&#34;&gt;Call for Participants&lt;/h1&gt;
+&lt;p&gt;We are currently conducting a research project on whether we can determine handwriting legibility solely from a person&amp;rsquo;s handwriting without the need for specialised tests. Right now, we are in the process of collecting digital handwriting using a tablet-based web application.&lt;/p&gt;
+&lt;p&gt;So if you have a tablet with a digital stylus and would like to contribute your handwriting to this project, please click on the following link -&amp;gt; &lt;a href=&#34;https://digital-pen-746a6.web.app/&#34;&gt;https://digital-pen-746a6.web.app/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The task will take less than 5 minutes and all responses are totally anonymous.&lt;/p&gt;
+&lt;p&gt;Thanks in advance for your support!!!&lt;/p&gt;
 </description>
     </item>
     

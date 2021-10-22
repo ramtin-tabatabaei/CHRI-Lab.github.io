@@ -728,9 +728,6 @@
     <loc>https://CHRI-Lab.github.io/project/cowriting_kazakh/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url><url>
-    <loc>https://CHRI-Lab.github.io/project/handwriting/</loc>
-    <lastmod>2021-01-04T09:41:50+11:00</lastmod>
-  </url><url>
     <loc>https://CHRI-Lab.github.io/project/fyv/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
   </url><url>
@@ -881,6 +878,9 @@
     <loc>https://CHRI-Lab.github.io/people/</loc>
     <lastmod>2020-12-16T13:17:36+11:00</lastmod>
   </url><url>
+    <loc>https://CHRI-Lab.github.io/tag/cse-honours/</loc>
+    <lastmod>2021-01-28T16:50:59+11:00</lastmod>
+  </url><url>
     <loc>https://CHRI-Lab.github.io/tag/active/</loc>
     <lastmod>2021-01-28T16:50:59+11:00</lastmod>
   </url><url>
@@ -898,11 +898,10 @@
     <loc>https://CHRI-Lab.github.io/tag/co-writer/</loc>
     <lastmod>2021-01-28T16:50:59+11:00</lastmod>
   </url><url>
-    <loc>https://CHRI-Lab.github.io/tag/cse-honours/</loc>
-    <lastmod>2021-01-28T16:50:59+11:00</lastmod>
-  </url><url>
     <loc>https://CHRI-Lab.github.io/author/daisy-ingle/</loc>
     <lastmod>2021-01-04T09:12:03+11:00</lastmod>
+  </url><url>
+    <loc>https://CHRI-Lab.github.io/project/handwriting/digital_pen/</loc>
   </url><url>
     <loc>https://CHRI-Lab.github.io/author/duc-luong-ong/</loc>
     <lastmod>2021-01-04T09:12:03+11:00</lastmod>
@@ -990,6 +989,8 @@
   </url><url>
     <loc>https://CHRI-Lab.github.io/tag/tangible-interfaces/</loc>
     <lastmod>2021-01-04T09:41:50+11:00</lastmod>
+  </url><url>
+    <loc>https://CHRI-Lab.github.io/project/handwriting/</loc>
   </url><url>
     <loc>https://CHRI-Lab.github.io/author/terry-agapitos/</loc>
     <lastmod>2021-01-04T09:12:03+11:00</lastmod>
