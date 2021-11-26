@@ -5,12 +5,28 @@
     <link>https://CHRI-Lab.github.io/publication-type/1/</link>
       <atom:link href="https://CHRI-Lab.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI at CSE UNSW</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Research Group in HRI in Australia (UoM, UNSW)</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://CHRI-Lab.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Robots for Learning - Learner-Centred Design</title>
+      <link>https://CHRI-Lab.github.io/publication/johal-2021-r-4-l/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/johal-2021-r-4-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech-Based Gesture Generation for Robots and Embodied Agents: A Scoping Review</title>
+      <link>https://CHRI-Lab.github.io/publication/liu-2021-speech/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/liu-2021-speech/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Valley of non-Distraction: Effect of Robot&#39;s Human-likeness on Perception Load</title>
@@ -53,6 +69,14 @@
       <link>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://CHRI-Lab.github.io/publication/sandygulova-hri-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoWriting Kazakh: Learning a New Script with a Robot - Demonstration</title>
+      <link>https://CHRI-Lab.github.io/publication/bolat-hri-2020-demo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://CHRI-Lab.github.io/publication/bolat-hri-2020-demo/</guid>
       <description></description>
     </item>
     

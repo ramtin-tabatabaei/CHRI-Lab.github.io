@@ -27,7 +27,7 @@
   
   
 
-  <meta name="author" content="Wafa Johal">
+  <meta name="author" content="Lina Phaijit">
 
   
   
@@ -35,7 +35,10 @@
     
   
   <meta name="description" content="Context Action Recognition is curcial for robots to perfoma around humans. Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.
-The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing.">
+The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing. Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset. In this project we propose to use audio desription movies to label actions. AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen. This information often deals with action actually depicted on the scene.
+Goals &amp; Milestones During this project, the student will:
+ Develop a pipeline to collect and crop clip of AD movies for at home actions. This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject&#43; Action &#43; Object] type of data. Investigate methods for HAR Implement a tree model combaning HAR with YOLO to identify agent and objects Evaluate the HAR pipeline with the Toyota Robot HSR  Topics Human Action Recognition,
+Prerequisites  Skills: Python, C&#43;&#43;, Git.  References  https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54 https://prior.allenai.org/projects/charades https://arxiv.org/pdf/1708.02696.pdf https://arxiv.org/pdf/1806.11230.pdf  ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/prospective/undergrad/human_action_recognition/">
@@ -55,11 +58,13 @@ The field of action recognition has aimed to use typical sensors found on robots
 
   
   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 
   
   
   
-  <meta name="theme-color" content="#1565c0">
+  <meta name="theme-color" content="#094183">
   
 
   
@@ -220,13 +225,19 @@ The field of action recognition has aimed to use typical sensors found on robots
   
   
   
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap" media="print" onload="this.media='all'">
+    
+  
 
   
   
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.bc52e59860ed9d0d40c38a5d2b1f4f46.css">
+  <link rel="stylesheet" href="/css/wowchemy.bcfb8fb76886b55618e485e65aa70adb.css">
 
   
 
@@ -269,11 +280,14 @@ The field of action recognition has aimed to use typical sensors found on robots
   <meta property="og:url" content="https://CHRI-Lab.github.io/prospective/undergrad/human_action_recognition/">
   <meta property="og:title" content="Human Action Recognition from AD Movies | computational human-robot interaction lab">
   <meta property="og:description" content="Context Action Recognition is curcial for robots to perfoma around humans. Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.
-The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing."><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
+The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing. Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset. In this project we propose to use audio desription movies to label actions. AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen. This information often deals with action actually depicted on the scene.
+Goals &amp; Milestones During this project, the student will:
+ Develop a pipeline to collect and crop clip of AD movies for at home actions. This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject&#43; Action &#43; Object] type of data. Investigate methods for HAR Implement a tree model combaning HAR with YOLO to identify agent and objects Evaluate the HAR pipeline with the Toyota Robot HSR  Topics Human Action Recognition,
+Prerequisites  Skills: Python, C&#43;&#43;, Git.  References  https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54 https://prior.allenai.org/projects/charades https://arxiv.org/pdf/1708.02696.pdf https://arxiv.org/pdf/1806.11230.pdf  "><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-    <meta property="article:modified_time" content="2021-01-04T09:41:50&#43;11:00">
+    
   
 
   
@@ -331,6 +345,10 @@ The field of action recognition has aimed to use typical sensors found on robots
   <div class="container-xl">
 
     
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
+    
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -339,6 +357,10 @@ The field of action recognition has aimed to use typical sensors found on robots
     </button>
     
 
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
     
 
     
@@ -591,10 +613,8 @@ The field of action recognition has aimed to use typical sensors found on robots
     
     
       
-          Last updated on
-      
     
-    Jan 4, 2021
+    Jan 1, 0001
   </span>
   
 
@@ -835,78 +855,14 @@ This extraction tool should be fexible and allow for integration of next action.
   <div class="media author-card content-widget-hr">
     
       
-      <a href="/author/wafa-johal/"><img class="avatar mr-3 avatar-circle" src="/author/wafa-johal/avatar_hu8404763777c2f6efbc3dc935d7fb67b4_5412_270x270_fill_q75_lanczos_center.jpg" alt="Wafa Johal"></a>
+      <a href="/author/lina-phaijit/"><img class="avatar mr-3 avatar-circle" src="/author/lina-phaijit/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg" alt="Lina Phaijit"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/author/wafa-johal/">Wafa Johal</a></h5>
-      
+      <h5 class="card-title"><a href="/author/lina-phaijit/">Lina Phaijit</a></h5>
+      <h6 class="card-subtitle">PhD Student</h6>
       
       <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:wafa.johal@unsw.edu.au" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/WafaJohal" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.fr/citations?user=GR9bAl0AAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/wafajohal" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
   
 </ul>
 
@@ -944,7 +900,7 @@ This extraction tool should be fexible and allow for integration of next action.
   
 
   <p class="powered-by">
-    © Research Group in HRI at CSE UNSW
+    © Research Group in HRI in Australia (UoM, UNSW)
   </p>
 
   

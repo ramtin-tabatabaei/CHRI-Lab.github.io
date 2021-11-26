@@ -27,14 +27,14 @@
   
   
 
-  <meta name="author" content="Wafa Johal">
+  <meta name="author" content="Lina Phaijit">
 
   
   
   
     
   
-  <meta name="description" content="Research group on Human-Robot Interaction at the School of CSE UNSW">
+  <meta name="description" content="Research group on Human-Robot Interaction in Australia">
 
   
   <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/tag/robotics/">
@@ -54,11 +54,13 @@
 
   
   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 
   
   
   
-  <meta name="theme-color" content="#1565c0">
+  <meta name="theme-color" content="#094183">
   
 
   
@@ -219,13 +221,19 @@
   
   
   
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap" media="print" onload="this.media='all'">
+    
+  
 
   
   
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.bc52e59860ed9d0d40c38a5d2b1f4f46.css">
+  <link rel="stylesheet" href="/css/wowchemy.bcfb8fb76886b55618e485e65aa70adb.css">
 
   
 
@@ -269,7 +277,7 @@
   <meta property="og:site_name" content="computational human-robot interaction lab">
   <meta property="og:url" content="https://CHRI-Lab.github.io/tag/robotics/">
   <meta property="og:title" content="robotics | computational human-robot interaction lab">
-  <meta property="og:description" content="Research group on Human-Robot Interaction at the School of CSE UNSW"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="Research group on Human-Robot Interaction in Australia"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2019-10-01T00:00:00&#43;00:00">
@@ -328,6 +336,10 @@
   <div class="container-xl">
 
     
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
+    
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -336,6 +348,10 @@
     </button>
     
 
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
     
 
     
@@ -604,7 +620,10 @@
       <div class="article-style">
         
           Context Action Recognition is curcial for robots to perfoma around humans. Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.
-The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing.
+The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing. Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset. In this project we propose to use audio desription movies to label actions. AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen. This information often deals with action actually depicted on the scene.
+Goals &amp; Milestones During this project, the student will:
+ Develop a pipeline to collect and crop clip of AD movies for at home actions. This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject+ Action + Object] type of data. Investigate methods for HAR Implement a tree model combaning HAR with YOLO to identify agent and objects Evaluate the HAR pipeline with the Toyota Robot HSR  Topics Human Action Recognition,
+Prerequisites  Skills: Python, C++, Git.  References  https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54 https://prior.allenai.org/projects/charades https://arxiv.org/pdf/1708.02696.pdf https://arxiv.org/pdf/1806.11230.pdf  
         
       </div>
     </div>
@@ -617,7 +636,10 @@ The field of action recognition has aimed to use typical sensors found on robots
       <div class="article-style">
         
           Context Social robots are foreseen to be encountered in our everyday life, playing roles as assistant or companion (to mention a few). Recent studies have shown the potential harmful impacts of overtrust in social robotics [1], as robots may collect sensitive information without the user’s knowledge.
-Behavioural styles allow robots to express themselves differently within the same context.
+Behavioural styles allow robots to express themselves differently within the same context. Given a specific gesture, keyframe manipulation can be used in order to generate style-based variation to the gesture. Behavioural styles have been studied in the past to improve robot&rsquo;s behaviour during human-robot interaction [2].
+In this project, we will explore how behavioural styles can influence engagement, trust and persuasion during human-robot interaction.
+Goals &amp; Milestones  Implement behavioural styles for the Nao robot (voice and behaviour) and for a voice assistant (voice only) Design at least two behaviour styles based on human behaviour and personality styles Evaluate and compare these styles via experimentation Design a scenario similar to the one described in paper [3] Setup a data collection environment (posture, video and audio) in the HRI Lab facility of UNSW Select appropriate tasks and/or questionnaires to measure engagement, trust and/or persuasion Evaluate the system via an experiment with users Complete the data analysis  Topics Robotics, HRI, Psychology
+Prerequisites  Skills: Python, ROS and Git.  References  [1]https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/10/14081257/Robots_social_impact_eng.pdf [2] Johal, W., Pesty, S., &amp; Calvary, G. (2014, August). Towards companion robots behaving with style. In The 23rd IEEE International Symposium on Robot and Human Interactive Communication (pp. 1063-1068). IEEE. [3] Bainbridge, W. A., Hart, J. W., Kim, E. S., &amp; Scassellati, B. (2011). The benefits of interactions with physically present robots over video-displayed agents. International Journal of Social Robotics, 3(1), 41-52. [4] Peters, R., Broekens, J., Li, K., &amp; Neerincx, M. A. (2019, July). Robot Dominance Expression Through Parameter-based Behaviour Modulation. In Proceedings of the 19th ACM International Conference on Intelligent Virtual Agents (pp.
         
       </div>
     </div>
@@ -631,6 +653,9 @@ Behavioural styles allow robots to express themselves differently within the sam
         
           Context Handwriting is one of the most important motor skill we learn as human. Children with handwriting difficulties can find their academic impacted and often succeed less at school.
 In this project we propose to explore new methods for a robot to write using a pen. The project will use the Fetch Robot and aim to evaluate how a robot could learn handwriting trajectories using human demonstrations.
+Goals &amp; Milestones During this project, the student will:
+ Learn about ROS Develop a ROS package that enables to control the Fetch Robot arm given a series of handwriting strokes Explore the use of different methods for the robot to learn letter writing from demonstrations Evaluate the implemented method compare to other state of the art methods  Topics ROS, Learning by Demonstration, Robotics, Handwriting
+Prerequisites  Skills: Python, C++, ROS, Git.  References See Zotero Collection https://www.zotero.org/groups/2419050/hri-unsw/collections/GQERYTFZ
         
       </div>
     </div>
@@ -642,7 +667,11 @@ In this project we propose to explore new methods for a robot to write using a p
       <h2><a href="/prospective/undergrad/voice-robot/" >Voice for ROS</a></h2>
       <div class="article-style">
         
-          Context Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System).
+          Context Natural language is an important part of communication since it offers an intuitive and efficient way of conveying ideas to another individual. Enabling robots to efficiently use language is essential for human-robot collaboration. In this project, we aim to develop an interface between a dialog manager (i.e. DialogFlow) and ROS (Robotics Operating System). By doing this, we will be able to use the powerful dialogue systems in human-robot interaction scenario.
+A scenario, using tangible robots (Cellulo) combined with voice assistant for upper-arm rehabilitation will be implemented to show the potential of this new ros-package.
+Goals &amp; Milestones During this project, the student will:
+ Learn about Google DialogFlow and ROS Develop a ROS package that enables to access and manipulates DialogFlow features Develop a Cellulo Rehabilitation Game Test the game with a pilot experiment  Topics Voice-Assistant, Human-Robot Interaction, ROS
+Prerequisites  Skills: Python, C++, ROS, Git.  References  https://dialogflow.com/ https://www.ros.org/ http://wafa.johal.org/project/cellulo/ Hudson, C., Bethel, C. L., Carruth, D. W., Pleva, M., Juhar, J., &amp; Ondas, S. (2017, October). A training tool for speech driven human-robot interaction applications. In 2017 15th International Conference on Emerging eLearning Technologies and Applications (ICETA) (pp. 1-6). IEEE. Moore, R. K. (2017). Is spoken language all-or-nothing? Implications for future speech-based human-machine interaction. In Dialogues with Social Robots (pp. 281-291). Springer, Singapore. Beirl, D., Yuill, N., &amp; Rogers, Y. (2019). Using Voice Assistant Skills in Family Life. In Lund, K., Niccolai, G. P., Lavoué, E., Gweon, C. H., &amp; Baker, M. (Eds.), A Wide Lens: Combining Embodied, Enactive, Extended, and Embedded Learning in Collaborative Settings, 13th International Conference on Computer Supported Collaborative Learning (CSCL) 2019, Volume 1 (pp. 96-103). Lyon, France: International Society of the Learning Sciences.  
         
       </div>
     </div>
@@ -661,7 +690,7 @@ In this project we propose to explore new methods for a robot to write using a p
   
 
   <p class="powered-by">
-    © Research Group in HRI at CSE UNSW
+    © Research Group in HRI in Australia (UoM, UNSW)
   </p>
 
   

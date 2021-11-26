@@ -27,14 +27,14 @@
   
   
 
-  <meta name="author" content="Wafa Johal">
+  <meta name="author" content="Lina Phaijit">
 
   
   
   
     
   
-  <meta name="description" content="Research group on Human-Robot Interaction at the School of CSE UNSW">
+  <meta name="description" content="Research group on Human-Robot Interaction in Australia">
 
   
   <link rel="alternate" hreflang="en-us" href="https://CHRI-Lab.github.io/tag/machine-learning/">
@@ -54,11 +54,13 @@
 
   
   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 
   
   
   
-  <meta name="theme-color" content="#1565c0">
+  <meta name="theme-color" content="#094183">
   
 
   
@@ -219,13 +221,19 @@
   
   
   
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans:wght@500&family=Source+Sans+Pro&display=swap" media="print" onload="this.media='all'">
+    
+  
 
   
   
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.bc52e59860ed9d0d40c38a5d2b1f4f46.css">
+  <link rel="stylesheet" href="/css/wowchemy.bcfb8fb76886b55618e485e65aa70adb.css">
 
   
 
@@ -269,7 +277,7 @@
   <meta property="og:site_name" content="computational human-robot interaction lab">
   <meta property="og:url" content="https://CHRI-Lab.github.io/tag/machine-learning/">
   <meta property="og:title" content="machine-learning | computational human-robot interaction lab">
-  <meta property="og:description" content="Research group on Human-Robot Interaction at the School of CSE UNSW"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
+  <meta property="og:description" content="Research group on Human-Robot Interaction in Australia"><meta property="og:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://CHRI-Lab.github.io/images/icon_hu02c0217b7eeb0e7fdb8b09af6bff09b6_8240_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -328,6 +336,10 @@
   <div class="container-xl">
 
     
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
+    
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -336,6 +348,10 @@
     </button>
     
 
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">computational human-robot interaction lab</a>
+    </div>
     
 
     
@@ -604,7 +620,10 @@
       <div class="article-style">
         
           Context Action Recognition is curcial for robots to perfoma around humans. Indeed, robot need to asses human action and intentions in order to assist them in everyday life tasks and to collaborative efficiently.
-The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing.
+The field of action recognition has aimed to use typical sensors found on robots to recognize agnts, objects and actions they are performing. Typical approach is to record a dataset of various action and label them. But often theses actions are not natural and it can be difficult to represent the variety of ways to perform actions with a lab built dataset. In this project we propose to use audio desription movies to label actions. AD movies integrate a form of narration to allow virually impaired veiwers to undertsnad the visual element sowed on screen. This information often deals with action actually depicted on the scene.
+Goals &amp; Milestones During this project, the student will:
+ Develop a pipeline to collect and crop clip of AD movies for at home actions. This extraction tool should be fexible and allow for integration of next action. It will for instance feature video and text processing to extract [Subject+ Action + Object] type of data. Investigate methods for HAR Implement a tree model combaning HAR with YOLO to identify agent and objects Evaluate the HAR pipeline with the Toyota Robot HSR  Topics Human Action Recognition,
+Prerequisites  Skills: Python, C++, Git.  References  https://www-sciencedirect-com.wwwproxy1.library.unsw.edu.au/science/article/pii/S174228761930283X https://openaccess.thecvf.com/content_cvpr_2015/papers/Rohrbach_A_Dataset_for_2015_CVPR_paper.pdf https://dl-acm-org.wwwproxy1.library.unsw.edu.au/doi/abs/10.1145/3355390?casa_token=MrZSE8hoPFYAAAAA:rcwHYdISRyLM5OApuN_2SASbwgBsswxx2EPHy9mGP8NaqIdvBj0q5LIa9_ChdyI_Lzfi4GX0PWjhD54 https://prior.allenai.org/projects/charades https://arxiv.org/pdf/1708.02696.pdf https://arxiv.org/pdf/1806.11230.pdf  
         
       </div>
     </div>
@@ -617,7 +636,11 @@ The field of action recognition has aimed to use typical sensors found on robots
       <div class="article-style">
         
           Context The field of social human-robot interaction is growing. Understanding how communication between humans (human-human) generalises during human-robot communication is crucial in building fluent and enjoyable interactions with social robots. Everyday, more datasets that feature social interaction between humans and between humans and robots are made freely available online.
-In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets.
+In this project we propose to take a data-driven approach to build predictive models of social interactions between humans (HH) ( and between humans and robots (HR) interaction using 3 different datasets. Relevant research questions include:
+ Which multi-modal features can be transferable from HH to HR setups? Are there common features that discriminate human behaviour in HH or HR scenarios (e.g. &lsquo;Do people speak less or slower with robots?&rsquo; &hellip; )  Goals &amp; Milestones During this project, the student will:
+ Explore datasets (PinSoRo, MHHRI and P2PSTORY): type of data (video; audio, point cloud), available labels and annotation &hellip; Extract relevant features multimodal on each dataset Evaluate predictive models for each dataset (i.e. engagement) Explore transfer learning from one dataset to another  There is also potential to use UNSW’s National Facility for Human-Robot Interaction Research to create a new dataset.
+Topics Machine Learning, Human-Robot Interaction
+Prerequisites  Skills: Python, ROS, Git.  References  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205999 https://www.cl.cam.ac.uk/research/rainbow/projects/mhhri/ https://www.media.mit.edu/projects/p2pstory/overview/  
         
       </div>
     </div>
@@ -636,7 +659,7 @@ In this project we propose to take a data-driven approach to build predictive mo
   
 
   <p class="powered-by">
-    © Research Group in HRI at CSE UNSW
+    © Research Group in HRI in Australia (UoM, UNSW)
   </p>
 
   
