@@ -16,7 +16,7 @@ faculty:
       
 current-students:
   - name: Ulan
-    lastname: 
+    lastname: " "
     photo: Ulan/ulan.jpg
     info: PhD Student
     start: Aug 2022
