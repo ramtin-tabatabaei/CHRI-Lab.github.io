@@ -31,19 +31,19 @@ current-students:
       linkedin: https://www.linkedin.com/in/
       github: https://github.com/
 
-    - name: Jiahe (Michael) Pan
-      lastname: Pan
-      photo: Jiahe/jiahe.jpg
-      info: Research Assistamt
-      start: Jan 2024
-      email: 
-      education:
-        - B.S. from University of Melbourne
-      social:
-        google-scholar: http://scholar.google.com/citations?user=
-        linkedin: http://www.linkedin.com/in/
-        website: ""
-        email: ""
+  - name: Jiahe (Michael) Pan
+    lastname: Pan
+    photo: Jiahe/jiahe.jpg
+    info: Research Assistamt
+    start: Jan 2024
+    email: 
+    education:
+      - B.S. from University of Melbourne
+    social:
+      google-scholar: http://scholar.google.com/citations?user=
+      linkedin: http://www.linkedin.com/in/
+      website: ""
+      email: ""
 
 
 postdoc:
