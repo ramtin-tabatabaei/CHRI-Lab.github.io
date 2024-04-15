@@ -1,0 +1,62 @@
+faculty:
+  - name: Wafa
+    lastname: Johal
+    photo: Wafa/wafa.jpg
+    info: Senior Lecturer, ARC DECRA Fellow
+    education:
+      - M.S. and Ph.D. from the University of Grenoble-Alps
+      - B.S, B.A. in CS and Applied Maths to Cog Sciences.
+    social:
+      website: https://wafa.johal.org/
+      email: wafa.johal@unimelb.edu.au
+      github: https://github.com/wafajohal
+      google-scholar: https://scholar.google.com/citations?user=GR9bAl0AAAAJ
+      linkedin: https://www.linkedin.com/in/wafa-johal/
+
+      
+current-students:
+  - name: Ulan
+    lastname: 
+    photo: Ulan/ulan.jpg
+    info: PhD Student
+    start: Aug 2022
+    advisor:
+      - Jarrod Knibbe
+      - Eduardo Velloso
+      - Wafa Johal
+    education:
+      - B.S. and M Eng. from Unimelb
+    social:
+      twitter: https://twitter.com/
+      linkedin: https://www.linkedin.com/in/
+      github: https://github.com/
+
+    - name: Jiahe (Michael) Pan
+      lastname: Pan
+      photo: Jiahe/jiahe.jpg
+      info: Research Assistamt
+      start: Jan 2024
+      email: 
+      education:
+        - B.S. from University of Melbourne
+      social:
+        google-scholar: http://scholar.google.com/citations?user=
+        linkedin: http://www.linkedin.com/in/
+        website: ""
+        email: ""
+
+
+postdoc:
+  - name: Audrey Balaska
+    lastname: Balaska
+    photo: Audrey/audrey.jpg
+    info: Postdoctoral Research Fellow
+    start: June 2024
+    email: ""
+    education:
+      - M.S. and Ph.D. from the XXXX
+      - B.S. from XXXX
+    social:
+      google-scholar: http://scholar.google.com/citations?user=bgij4b8AAAAJ
+      linkedin: http://www.linkedin.com/in/
+      website: https://
