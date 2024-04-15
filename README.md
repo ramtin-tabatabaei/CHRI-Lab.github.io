@@ -1,6 +1,6 @@
-# NSL Website <a href="https://nsl.usc.edu/"><img src="images/logopic/nsl_logo_3_Raj.png" width="4%" alt="NSL Logo"></a>
+# CHRI Website <a href="https://chri-lab.github.io/"><img src="images/logopic/chri-logo.png" width="4%" alt="CHRI Logo"></a>
 
-This is the website of the Networked Systems Laboratory (NSL) at the University of Southern California.
+This is the website of the CHRI Laboratory at the University of Melbourne.
 
 We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template.
 
@@ -13,8 +13,8 @@ We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template
 
 ## Steps to update the website
 
-- `git clone https://github.com/USC-NSL/USC-NSL.github.io.git`
-- `cd USC-NSL.github.io`
+- `git clone https://github.com/chri-lab/chri-lab.github.io.git`
+- `cd chri-lab.github.io`
 - `git checkout -b main` -> Branch containing the website source code.
 - Make changes only to the main branch and commit. An automated worflow deploys the website from main branch to the gh-pages branch.
 
@@ -44,7 +44,7 @@ Steps to update your personal page:
 - Create a copy of contents under `_data/people/`. Example contents are located at `_data/people/rajrup.yml`. Note that the name of this file should be the same as the name of the page, e.g. `foo.md` should have `foo.yml` as its contents.
 - Jekyll uses `liquid` style for templating. You can use liquid tags to add/update the contents of the page as `rajrup.md` does.
 - Create a `.bib` file for publications under `_bibliography/people/`. An example `.bib` file is located at `_bibliography/people/rajrup.bib`. If your bib file is named `foo.bib`, then update the code to generate the bibliography as `{% bibliography -f people/foo%}`. You should find the use of this command at the end of `_pages/people/rajrup.md`.
-- Update the link to your page in `_data/team.yml`. For example, if your `permalink` is `/people/foo/`, then update the link to your page as `current-students.<your_name>.social.website = https://usc-nsl.github.io/people/foo/`.
+- Update the link to your page in `_data/team.yml`. For example, if your `permalink` is `/people/foo/`, then update the link to your page as `current-students.<your_name>.social.website = https://chri-lab.github.io/people/foo/`.
 - You can also add redirections to your personal page. This is very helpful when migrating from our old website to preserve same old url pointing to your new page. For example, if your personal page is `/people/foo-bar/` and you want `/people/foo/` and `/people/bar/` should redirect to `/people/foo-bar/`, you can add `redirect_from` at the top of `foo.md` with the value `/people/foo/` and `/people/bar/`. Check out redirections in `_pages/people/fawad.md` and `_pages/people/ramesh.md`.
 
 ### Add link to existing website
@@ -54,10 +54,8 @@ If you have your own website, you can provide the link in `_data/team.yml` file 
 ## Add/Update project page
 
 We have created project pages for 2 current projects located at `_pages/projects/`. You can make a copy of these pages and update the contents for your projects.
-The project pages will have url as `https://nsl.usc.edu/projects/<project_name>/`.
+The project pages will have url as `https://chri-lab.github.io/projects/<project_name>/`.
 
 ## Contact
 
-- Rajrup (Raj): Reach out via Slack or email for any questions, access, etc.
-- Ramesh
-- Barath
+- Wafa : Reach out via Slack or email for any questions, access, etc.

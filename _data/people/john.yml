@@ -1,0 +1,14 @@
+name: John Doe
+photo: John/john.jpg
+info: Ph.D. Student
+email: email@edu.au
+github: https://github.com/
+linkedin: https://www.linkedin.com/in/
+twitter: https://twitter.com/
+scholar: https://scholar.google.com/
+education:
+  - (2019-Present) Ph.D. in Computer Science, XXXX.
+  - (2017-2019) M.S. in Computer Science XXXX
+  - (2012-2017) B.S. in Computer Science XXXX
+awards:
+  - best paper award at XXXX
