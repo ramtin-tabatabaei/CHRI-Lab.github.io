@@ -45,6 +45,22 @@ current-students:
       github: https://github.com/
       google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
 
+  - name: Muhammad
+    lastname: "Bilal"
+    photo: backup/Muhammad-Bilal.png
+    info: PhD Student
+    start: March 2023
+    advisor:
+      - Denny Oetomo
+      - Nir Lipovetzky
+      - Wafa Johal
+    social:
+      twitter: https://twitter.com/sarah_schoembs
+      linkedin: https://www.linkedin.com/in/sarah-schoembs/
+      github: https://github.com/
+      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
+
+
   - name: Jiahe (Michael) Pan
     lastname: Pan
     photo: Jiahe/jiahe.jpg
