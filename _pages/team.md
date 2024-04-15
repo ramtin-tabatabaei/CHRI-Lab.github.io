@@ -9,7 +9,7 @@ permalink: /people/
 <!-- # Group Members -->
 <!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
-Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#visitor), [Alumni](#alumni).
+Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#postdoc), [Alumni](#alumni).
 
 <!----------------------------------------------------------------------------------------------------------------------------------------->
 ## Faculty
@@ -152,12 +152,12 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#v
 {% endif %}
 
 <!----------------------------------------------------------------------------------------------------------------------------------------->
-{% if site.data.team.visitor.size > 0 %}
-## Visitor
+{% if site.data.team.postdoc.size > 0 %}
+## Postdoc
 {% endif %}
 
 {% assign number_printed = 0 %}
-{% for member in site.data.team.visitor%}
+{% for member in site.data.team.postdoc%}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
