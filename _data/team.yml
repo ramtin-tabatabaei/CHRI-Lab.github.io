@@ -31,6 +31,20 @@ current-students:
       linkedin: https://www.linkedin.com/in/
       github: https://github.com/
 
+  - name: Sarah
+    lastname: "Schombs"
+    photo: Sarah/sarah.jpg
+    info: PhD Student
+    start: March 2023
+    advisor:
+      - Jorge Goncalves
+      - Wafa Johal
+    social:
+      twitter: https://twitter.com/sarah_schoembs
+      linkedin: https://www.linkedin.com/in/sarah-schoembs/
+      github: https://github.com/
+      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
+
   - name: Jiahe (Michael) Pan
     lastname: Pan
     photo: Jiahe/jiahe.jpg
