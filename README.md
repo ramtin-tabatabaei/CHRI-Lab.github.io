@@ -36,14 +36,14 @@ Check `_layouts/bib.html` to see how the fields are configured.
 
 ### Create a new page
 
-We have a sample one page template for personal webpage at `_layouts/personal.html`. Example page that follows the template is located at `_pages/people/rajrup.md`. You can make a copy of this page and update the contents from your old page.
+We have a sample one page template for personal webpage at `_layouts/personal.html`. Example page that follows the template is located at `_pages/people/john.md`. You can make a copy of this page and update the contents from your old page.
 
 Steps to update your personal page:
 
 - Create a page under `_pages/people/` with your preferred name say `foo.md`. Add/update the `title`, `permalink` and `excerpt` fields, while the other fields `layout` and `sitemap` should have values `personal` and `false`, respectively.
-- Create a copy of contents under `_data/people/`. Example contents are located at `_data/people/rajrup.yml`. Note that the name of this file should be the same as the name of the page, e.g. `foo.md` should have `foo.yml` as its contents.
-- Jekyll uses `liquid` style for templating. You can use liquid tags to add/update the contents of the page as `rajrup.md` does.
-- Create a `.bib` file for publications under `_bibliography/people/`. An example `.bib` file is located at `_bibliography/people/rajrup.bib`. If your bib file is named `foo.bib`, then update the code to generate the bibliography as `{% bibliography -f people/foo%}`. You should find the use of this command at the end of `_pages/people/rajrup.md`.
+- Create a copy of contents under `_data/people/`. Example contents are located at `_data/people/john.yml`. Note that the name of this file should be the same as the name of the page, e.g. `foo.md` should have `foo.yml` as its contents.
+- Jekyll uses `liquid` style for templating. You can use liquid tags to add/update the contents of the page as `john.md` does.
+- Create a `.bib` file for publications under `_bibliography/people/`. An example `.bib` file is located at `_bibliography/people/john.bib`. If your bib file is named `foo.bib`, then update the code to generate the bibliography as `{% bibliography -f people/foo%}`. You should find the use of this command at the end of `_pages/people/john.md`.
 - Update the link to your page in `_data/team.yml`. For example, if your `permalink` is `/people/foo/`, then update the link to your page as `current-students.<your_name>.social.website = https://chri-lab.github.io/people/foo/`.
 - You can also add redirections to your personal page. This is very helpful when migrating from our old website to preserve same old url pointing to your new page. For example, if your personal page is `/people/foo-bar/` and you want `/people/foo/` and `/people/bar/` should redirect to `/people/foo-bar/`, you can add `redirect_from` at the top of `foo.md` with the value `/people/foo/` and `/people/bar/`. Check out redirections in `_pages/people/fawad.md` and `_pages/people/ramesh.md`.
 
