@@ -16,8 +16,8 @@ faculty:
       
 current-students:
   - name: Ulan
-    lastname: " "
-    photo: Ulan/ulan.jpg
+    lastname: "Kelesbekov"
+    photo: teampic/backup/Ulan-Kelesbekov.png
     info: PhD Student
     start: Aug 2022
     advisor:
@@ -26,10 +26,35 @@ current-students:
       - Wafa Johal
     education:
       - B.S. and M Eng. from Unimelb
-    social:
-      twitter: https://twitter.com/
-      linkedin: https://www.linkedin.com/in/
-      github: https://github.com/
+
+  - name: Jian
+    lastname: "Zhang"
+    photo: teampic/backup/Jian-Zhang.png
+    info: PhD Student
+    start: March 2024
+    advisor:
+      - Jarrod Knibbe
+      - Wafa Johal
+
+  - name: Yan
+    lastname: "Zhang"
+    photo: teampic/backup/Yan-Zhang.png
+    info: PhD Student
+    start: Dec 2023
+    advisor:
+      - Jorge Goncalves
+      - Jarrod Knibbe
+      - Wafa Johal
+
+  - name: Ramtin
+    lastname: "Tabatabaei"
+    photo: teampic/backup/Seyed-Ramtin-Tabatabaei-Moghaddam.jpg
+    info: PhD Student
+    start: Dec 2023
+    advisor:
+      - Vassilis Kostakos
+      - Wafa Johal
+
 
   - name: Sarah
     lastname: "Schombs"
@@ -42,8 +67,8 @@ current-students:
     social:
       twitter: https://twitter.com/sarah_schoembs
       linkedin: https://www.linkedin.com/in/sarah-schoembs/
-      github: https://github.com/
       google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
+      website: "https://sites.google.com/view/sarahschombs/"
 
   - name: Muhammad
     lastname: "Bilal"
@@ -54,26 +79,20 @@ current-students:
       - Denny Oetomo
       - Nir Lipovetzky
       - Wafa Johal
-    social:
-      twitter: https://twitter.com/sarah_schoembs
-      linkedin: https://www.linkedin.com/in/sarah-schoembs/
-      github: https://github.com/
-      google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
-
 
   - name: Jiahe (Michael) Pan
     lastname: Pan
-    photo: Jiahe/jiahe.jpg
+    photo: teampic/backup/michael-pan.jpeg
     info: Research Assistamt
     start: Jan 2024
-    email: 
     education:
       - B.S. from University of Melbourne
-    social:
-      google-scholar: http://scholar.google.com/citations?user=
-      linkedin: http://www.linkedin.com/in/
-      website: ""
-      email: ""
+    advisor:
+      - Denny Oetomo
+      - Jon Eden
+      - Wafa Johal
+
+
 
 
 postdoc:
