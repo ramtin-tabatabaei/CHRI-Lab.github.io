@@ -17,7 +17,7 @@ faculty:
 current-students:
   - name: Ulan
     lastname: "Kelesbekov"
-    photo: teampic/backup/Ulan-Kelesbekov.png
+    photo: backup/Ulan-Kelesbekov.png
     info: PhD Student
     start: Aug 2022
     advisor:
@@ -29,7 +29,7 @@ current-students:
 
   - name: Jian
     lastname: "Zhang"
-    photo: teampic/backup/Jian-Zhang.png
+    photo: backup/Jian-Zhang.png
     info: PhD Student
     start: March 2024
     advisor:
@@ -38,7 +38,7 @@ current-students:
 
   - name: Yan
     lastname: "Zhang"
-    photo: teampic/backup/Yan-Zhang.png
+    photo: backup/Yan-Zhang.png
     info: PhD Student
     start: Dec 2023
     advisor:
@@ -48,7 +48,7 @@ current-students:
 
   - name: Ramtin
     lastname: "Tabatabaei"
-    photo: teampic/backup/Seyed-Ramtin-Tabatabaei-Moghaddam.jpg
+    photo: backup/Seyed-Ramtin-Tabatabaei-Moghaddam.jpg
     info: PhD Student
     start: Dec 2023
     advisor:
@@ -91,9 +91,6 @@ current-students:
       - Denny Oetomo
       - Jon Eden
       - Wafa Johal
-
-
-
 
 postdoc:
   - name: Audrey Balaska
