@@ -38,7 +38,7 @@ current-students:
 
   - name: Yan
     lastname: "Zhang"
-    photo: backup/Yan-Zhang.png
+    photo: backup/Yan-Zhang.jpg
     info: PhD Student
     start: Dec 2023
     advisor:
@@ -82,7 +82,7 @@ current-students:
 
   - name: Jiahe (Michael) Pan
     lastname: Pan
-    photo: teampic/backup/michael-pan.jpeg
+    photo: backup/michael-pan.jpg
     info: Research Assistamt
     start: Jan 2024
     education:
