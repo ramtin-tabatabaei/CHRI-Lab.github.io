@@ -21,6 +21,7 @@ Our group conducts research on human-robot interaction.
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Items -->
@@ -36,6 +37,12 @@ Our group conducts research on human-robot interaction.
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/4.png" alt="Slide 4" />
+        </div>
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/cellulo.png" alt="Slide 4" />
+        </div>
+         <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/chri-logo.png" alt="Slide 4" />
         </div>
        </div>
     </div>
