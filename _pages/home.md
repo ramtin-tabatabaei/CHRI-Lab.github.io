@@ -47,7 +47,6 @@ Our group conducts research on human-robot interaction.
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
 
 <!--
 <h3> Recent Papers </h3>
