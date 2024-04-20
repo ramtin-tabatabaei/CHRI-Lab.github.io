@@ -1,7 +1,7 @@
 ---
-title: "CHRI Lab - Home"
+title: "HRI @ Unimelb - Home"
 layout: homelay
-excerpt: "CHRI Lab at University of Melbourne."
+excerpt: "HRI at University of Melbourne."
 sitemap: false
 permalink: /
 ---
@@ -10,7 +10,11 @@ permalink: /
 
 <div>
 
-Our group conducts research on human-robot interaction.
+Welcome to the Human-Robot Interaction Research Group at the University of Melbourne. 
+
+Our mission is to create autonomous robots that act smoothly and safely with humans. We focus on key areas such as behavioural analytics, co-learning environments for humans and robots, and the personalization and adaptation of autonomous robots to enhance their performance in human interactions.
+
+We are at the leading edge of human-robot interaction research, addressing challenges such as safe drone navigation in crowded spaces, personalized learning solutions with assistive robots, and visualizing uncertainty in high-stake scenarios involving robots...
 
 </div>
 
