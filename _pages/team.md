@@ -95,9 +95,14 @@ Jump to [Faculty](#faculty), [Current Students](#current-students), [Visitor](#p
   Advisor: <i>{{ member.advisor }}</i>
   {% endif %}
 
-  {% if member.advisor.size > 1 %} <!-- Generally a student is advised by max of 2 professors -->
+  {% if member.advisor.size == 2 %} <!-- Generally a student is advised by max of 2 professors -->
   Advisor: <i>{{ member.advisor[0] }}</i>, <i>{{ member.advisor[1] }}</i>
   {% endif %}
+
+  {% if member.advisor.size == 3 %} <!-- Generally a student is advised by max of 2 professors -->
+  Advisor: <i>{{ member.advisor[0] }}</i>, <i>{{ member.advisor[1] }}</i>, <i>{{ member.advisor[2] }}</i>
+  {% endif %}
+
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
