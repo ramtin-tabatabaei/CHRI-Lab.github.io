@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Muhammad"
 layout: personal
-permalink: /team/muhammad/
+permalink: /people/muhammad/
 sitemap: false
 excerpt: "Personal webpage of Muhammad"
 ---
