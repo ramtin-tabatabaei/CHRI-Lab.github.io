@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Jiahe Michael"
 layout: personal
-permalink: /team/jiahe/
+permalink: /people/jiahe/
 sitemap: false
 excerpt: "Personal webpage of Jiahe"
 ---
