@@ -15,7 +15,7 @@ faculty:
 
       
 current-students:
-  - name: <a href="https://chri-lab.github.io/people/ulan/">Ulan </a>
+  - name: <a href="https://chri-lab.github.io/people/ulan/">Ulan Kelesbekov</a>
     lastname: "Kelesbekov"
     photo: backup/Ulan-Kelesbekov.png
     info: PhD Student
@@ -27,7 +27,7 @@ current-students:
     education:
       - B.S. and M Eng. from Unimelb
 
-  - name: Jian
+  - name: <a href="https://chri-lab.github.io/people/jian/"> Jian Zhang </a>
     lastname: "Zhang"
     photo: backup/Jian-Zhang.png
     info: PhD Student
@@ -37,7 +37,7 @@ current-students:
       - Wafa Johal
 
 
-  - name: <a href="https://chri-lab.github.io/people/lina/">Lina </a>
+  - name: <a href="https://chri-lab.github.io/people/lina/">Lina Phaijit</a>
     lastname: "Phaijit"
     photo: backup/rock.png
     info: PhD Student, UNSW
@@ -47,7 +47,7 @@ current-students:
       - Wafa Johal
       
 
-  - name: Yan
+  - name: <a href="https://chri-lab.github.io/people/yan/">Yan Zhang </a>
     lastname: "Zhang"
     photo: backup/Yan-Zhang.jpg
     info: PhD Student
@@ -57,7 +57,7 @@ current-students:
       - Jarrod Knibbe
       - Wafa Johal
 
-  - name: Ramtin
+  - name: <a href="https://chri-lab.github.io/people/ramtin/">Ramtin Tabatabaei</a>
     lastname: "Tabatabaei"
     photo: backup/Seyed-Ramtin-Tabatabaei-Moghaddam.jpg
     info: PhD Student
@@ -81,7 +81,7 @@ current-students:
       google-scholar: https://scholar.google.com.au/citations?user=0h3pDqgAAAAJ
       website: "https://sites.google.com/view/sarahschombs/"
 
-  - name: Muhammad
+  - name: <a href="https://chri-lab.github.io/people/muhammad/">Muhammad Bilal </a>
     lastname: "Bilal"
     photo: backup/Muhammad-Bilal.png
     info: PhD Student
@@ -91,7 +91,7 @@ current-students:
       - Nir Lipovetzky
       - Wafa Johal
 
-  - name: Tharaka
+  - name: <a href="https://chri-lab.github.io/people/tharaka/">Tharaka Ratnayake</a>
     lastname: Ratnayake
     photo: backup/Tharaka.jpeg
     info: PhD Student
@@ -101,7 +101,7 @@ current-students:
       - Jon Eden
       - Wafa Johal
 
-  - name: Jiahe (Michael) Pan
+  - name: <a href="https://chri-lab.github.io/people/jiahe/">Jiahe (Michael) Pan </a>
     lastname: Pan
     photo: backup/michael-pan.jpg
     info: Research Assistamt
