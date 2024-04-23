@@ -3,7 +3,7 @@ title: "Chri Lab - Ulan"
 layout: personal
 permalink: /team/ulan/
 sitemap: false
-excerpt: "Personal webpage of Jane"
+excerpt: "Personal webpage of Ulan"
 ---
 {%- assign data = site.data.people -%}
 {%- assign member = data.ulan -%}
