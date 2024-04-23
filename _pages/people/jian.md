@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Jian"
 layout: personal
-permalink: /team/jian/
+permalink: /people/jian/
 sitemap: false
 excerpt: "Personal webpage of Jian"
 ---
