@@ -73,6 +73,6 @@ Department of XXXX, University of XXXXX.<br>
 
 <div class="publications">
 
-{% bibliography -f people/ulan%}
+{% bibliography -f people/lina%}
 
 </div>
