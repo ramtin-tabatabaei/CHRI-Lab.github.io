@@ -6,7 +6,7 @@ sitemap: false
 excerpt: "Personal website of Sarah"
 ---
 {%- assign data = site.data.people -%}
-{%- assign member = data.christina -%}
+{%- assign member = data.sarah -%}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="22%" style="float: left" />
