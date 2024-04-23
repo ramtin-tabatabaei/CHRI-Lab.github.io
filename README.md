@@ -13,10 +13,27 @@ We thank [Allan lab](http://www.allanlab.org/aboutwebsite.html) for the template
 
 ## Steps to update the website
 
+### Option 1 (Recommeded): Edit on Github Directly
+
+1. Access the Repository: Go to the GitHub repository by visiting chri-lab's GitHub page.
+2. Navigate to the File: Find the file you want to update using the file explorer in the repository.
+3. Edit the File:
+- Click on the file to open it.
+- Click the pencil icon in the upper right corner of the file view to edit the file in the GitHub in-browser editor.
+4. Make Your Changes:
+- Modify the content in the editor as needed. If you are editing a Markdown file (.md), use Markdown syntax to format the text.
+- After making changes, you can preview them by switching to the "Preview changes" tab to ensure everything looks right.
+5. Commit Changes:
+- Scroll down to the "Commit changes" section below the editor.
+- Provide a brief description of what you changed in the "Commit changes" title box. Optionally, add more details in the description box.
+- Commit the changes directly to the main branch by selecting the option to commit directly, then click on "Commit changes".
+
+
+### Option 2: Download, upldate and push
 - `git clone https://github.com/chri-lab/chri-lab.github.io.git`
 - `cd chri-lab.github.io`
 - `git checkout -b main` -> Branch containing the website source code.
-- Make changes only to the main branch and commit. An automated worflow deploys the website from main branch to the gh-pages branch.
+- Make changes only to the main branch and commit and push to main. A github workflow will build the pages and deploy them. 
 
 ## A note on bibliography entries
 
