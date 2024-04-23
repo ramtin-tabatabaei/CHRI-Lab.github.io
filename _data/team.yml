@@ -80,6 +80,16 @@ current-students:
       - Nir Lipovetzky
       - Wafa Johal
 
+  - name: Tharaka
+    lastname: Ratnayake
+    photo: backup/Tharaka.jpeg
+    info: PhD Student
+    start: April 2024
+    advisor:
+      - Denny Oetomo
+      - Jon Eden
+      - Wafa Johal
+
   - name: Jiahe (Michael) Pan
     lastname: Pan
     photo: backup/michael-pan.jpg
