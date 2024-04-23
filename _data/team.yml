@@ -15,7 +15,7 @@ faculty:
 
       
 current-students:
-  - name: Ulan
+  - name: <a href="https://chri-lab.github.io/people/ulan/">Ulan </a>
     lastname: "Kelesbekov"
     photo: backup/Ulan-Kelesbekov.png
     info: PhD Student
@@ -37,7 +37,7 @@ current-students:
       - Wafa Johal
 
 
-  - name: Lina
+  - name: <a href="https://chri-lab.github.io/people/lina/">Lina </a>
     lastname: "Phaijit"
     photo: backup/rock.png
     info: PhD Student, UNSW
