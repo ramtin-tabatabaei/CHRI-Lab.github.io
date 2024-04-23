@@ -1,7 +1,7 @@
 ---
 title: "Sarah Schombs"
 layout: personal
-permalink: /people/sarah-schombs/
+permalink: /people/sarah/
 sitemap: false
 excerpt: "Personal website of Sarah"
 ---
