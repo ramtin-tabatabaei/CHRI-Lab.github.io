@@ -36,6 +36,17 @@ current-students:
       - Jarrod Knibbe
       - Wafa Johal
 
+
+  - name: Lina
+    lastname: "Phaijit"
+    photo: backup/rock.png
+    info: PhD Student, UNSW
+    start: March 2021
+    advisor:
+      - Claude Sammut
+      - Wafa Johal
+      
+
   - name: Yan
     lastname: "Zhang"
     photo: backup/Yan-Zhang.jpg
