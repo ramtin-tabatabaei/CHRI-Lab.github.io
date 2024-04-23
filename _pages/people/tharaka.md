@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Tharaka"
 layout: personal
-permalink: /team/tharaka/
+permalink: /people/tharaka/
 sitemap: false
 excerpt: "Personal webpage of Tharaka"
 ---
