@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Lina"
 layout: personal
-permalink: /team/lina/
+permalink: /people/lina/
 sitemap: false
 excerpt: "Personal webpage of Lina"
 ---
