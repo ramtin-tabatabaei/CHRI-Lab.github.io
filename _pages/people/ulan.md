@@ -1,7 +1,7 @@
 ---
 title: "Chri Lab - Ulan"
 layout: personal
-permalink: /team/ulan/
+permalink: /people/ulan/
 sitemap: false
 excerpt: "Personal webpage of Ulan"
 ---
