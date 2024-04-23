@@ -1,5 +1,5 @@
 faculty:
-  - name: <a href="https://usc-nsl.github.io/people/wafa/">Wafa Johal </a>
+  - name: <a href="https://chri-lab.github.io/people/wafa/">Wafa Johal </a>
     lastname: Johal
     photo: backup/wafa.jpeg
     info: Senior Lecturer, ARC DECRA Fellow
@@ -56,7 +56,7 @@ current-students:
       - Wafa Johal
 
 
-  - name: <a href="https://usc-nsl.github.io/people/sarah/">Sarah Schombs </a>
+  - name: <a href="https://chri-lab.github.io/people/sarah/">Sarah Schombs </a>
     lastname: "Schombs"
     photo: Sarah/sarah.jpg
     info: PhD Student
