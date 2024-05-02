@@ -10,7 +10,7 @@ permalink: /
 
 <div>
 
-Welcome to the Human-Robot Interaction Research Group at the University of Melbourne. 
+Welcome to the Human-Robot Interaction Research team at the University of Melbourne. 
 
 Our mission is to create autonomous robots that act smoothly and safely with humans. We focus on key areas such as behavioural analytics, co-learning environments for humans and robots, and the personalization and adaptation of autonomous robots to enhance their performance in human interactions.
 
