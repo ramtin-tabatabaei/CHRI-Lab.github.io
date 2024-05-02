@@ -10,7 +10,14 @@ permalink: /allnews.html
 
 <div class="well">
 {% for article in site.data.news %}
+{%- if article.img %}
+<div class="row">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left" />
 <p>{{ article.date }}<br/>
 {{ article.headline}}</p>
+{%- else -%}
+<p>{{ article.date }}<br/>
+{{ article.headline}}</p>
+{%- endif %}
 {% endfor %}
 </div>
