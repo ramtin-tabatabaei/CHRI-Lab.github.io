@@ -32,40 +32,10 @@ excerpt: "Personal webpage of Yan"
 ## Biography
 
 <p>
-I received my MS XXXXX
+I'm a first-year Ph.D. student from the School of Computing and Information Systems, University of Melbourne. I'm supervised by Dr.Wafa Johal, Dr.Jorge Goncalves, and Dr.Jarrod Knibbe from the Human-Computer Interaction Group and Human-Robot Interaction Lab. My research interest focuses on Human-Robot Collaboration. Before starting my Ph.D., I completed my Bachelor's degree in Systems Engineering at the City University of Hong Kong. After that, I worked as a Research Engineer for two years at the Institute for AI Industry Research at Tsinghua University.
 
-My current research interest is XXXXX
-
-If you have any questions, please contact me at [at]unimelb[dot]edu[dot]au
+Contact me at yanzhang15[at]student[dot]unimelb[dot]edu[dot]au
+Google Scholar: https://scholar.google.com/citations?user=CyIEsPgAAAAJ&hl=zh-CN
+LinkedIn: https://www.linkedin.com/in/yan-zhang2332/
+Personal Webpage: https://yzhang2332.github.io/yanzhang/
 </p>
-
-
-## Teaching Experience
-
-<p>
-<em>Teaching Assistant at XXX</em><br>
-<b>Course:</b> XXXX, Fall 2022
-</p>
-
-## Work Experience
-
-
-
-<p></p>
-{% if member.awards %}
-## Awards
-{% endif %}
-
-{% for award in member.awards %}
-<ul style="overflow: hidden">
-<li> {{ award }} </li>
-</ul>
-{% endfor %}
-
-## Publications
-
-<div class="publications">
-
-{% bibliography -f people/yan%}
-
-</div>
