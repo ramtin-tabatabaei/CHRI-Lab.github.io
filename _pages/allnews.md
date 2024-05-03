@@ -12,7 +12,6 @@ permalink: /allnews.html
 {% for article in site.data.news %}
 {%- if article.img %}
 <p>
-<div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left" />
 {{ article.date }}<br/>
 {{ article.headline}}</p>
