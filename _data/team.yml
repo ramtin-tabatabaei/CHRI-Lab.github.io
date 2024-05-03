@@ -56,6 +56,14 @@ current-students:
       - Jorge Goncalves
       - Jarrod Knibbe
       - Wafa Johal
+    education:
+      - B.Eng. at the City University of Hong Kong
+    social:
+       linkedin: https://www.linkedin.com/in/yan-zhang2332/
+       google-scholar: https://scholar.google.com/citations?user=CyIEsPgAAAAJ&hl=zh-CN
+       website: https://yzhang2332.github.io/yanzhang/
+    
+    
 
   - name: <a href="https://chri-lab.github.io/people/ramtin/">Ramtin Tabatabaei</a>
     lastname: "Tabatabaei"
