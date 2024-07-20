@@ -16,7 +16,7 @@ permalink: /allnews.html
   <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left" /> -->
 {{ article.date }}<br/>
 {{ article.headline}}</div>
-</div>
+<!--</div>-->
 {%- else -%}
 <p>{{ article.date }}<br/>
 {{ article.headline}}</p>
