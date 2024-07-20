@@ -6,7 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-<h3> About </h3>
 
 <div>
 
