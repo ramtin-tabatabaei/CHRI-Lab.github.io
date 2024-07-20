@@ -10,12 +10,10 @@ permalink: /allnews.html
 
 <div class="well">
   {% for article in site.data.news %}
-    <div class="row">
         <div class="col-sm-6">
           <p>{{ article.date }}<br/>
           {{ article.headline }}</p>
         </div>
-    </div>
   {% endfor %}
 </div>
 <!--
