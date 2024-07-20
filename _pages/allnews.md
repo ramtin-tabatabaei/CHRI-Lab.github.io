@@ -15,7 +15,7 @@ permalink: /allnews.html
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left; margin-right: 10px;" /> 
 {{ article.date }}<br/>
-{{ article.headline}}
+{{ article.headline}}<br/>
 </div>
 <!--</div>-->
 {%- else -%}
