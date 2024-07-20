@@ -13,9 +13,11 @@ permalink: /allnews.html
 {%- if article.img %}
 <!--<div class="row"> -->
 <div class="col-sm-6 clearfix">
+<p>
   <img src="{{ site.url }}{{ site.baseurl }}/images/news/{{ article.img }}" class="img-responsive" width="22%" style="float: left; margin-right: 10px;" /> 
 {{ article.date }}<br/>
 {{ article.headline}}<br/>
+</p>
 </div>
 <!--</div>-->
 {%- else -%}
