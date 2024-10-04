@@ -3,6 +3,7 @@ title: "HRI @ Unimelb - Home"
 layout: homelay
 excerpt: "HRI at University of Melbourne."
 sitemap: false
+classes: wide
 permalink: /
 ---
 
