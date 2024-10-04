@@ -5,6 +5,7 @@ permalink: /publications/
 description: Publications in reverse chronological order. 
 years: [2024, 2023, 2022, 2021, 2020]
 nav: true
+classes: wide
 ---
 <!-- _pages/publications.md -->
 
