@@ -43,10 +43,19 @@ We are at the leading edge of human-robot interaction research, addressing chall
             <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/4.png" alt="Slide 4" />
         </div>
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/cellulo.png" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/5.png" alt="Slide 4" />
         </div>
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/chri-logo.png" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/7.png" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/8.png" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/9.png" alt="Slide 4" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/carousel/10.png" alt="Slide 4" />
         </div>
        </div>
     </div>
