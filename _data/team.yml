@@ -1,8 +1,8 @@
 faculty:
   - name: <a href="https://chri-lab.github.io/people/wafa/">Wafa Johal </a>
     lastname: Johal
-    photo: backup/wafa.jpeg
-    info: Senior Lecturer, ARC DECRA Fellow
+    photo: backup/WafaJ.jpg
+    info: Associate Professor
     education:
       - M.S. and Ph.D. from the University of Grenoble-Alps
       - B.S, B.A. in CS and Applied Maths to Cog Sciences.
@@ -39,7 +39,7 @@ current-students:
 
   - name: <a href="https://chri-lab.github.io/people/lina/">Lina Phaijit</a>
     lastname: "Phaijit"
-    photo: backup/rock.png
+    photo: backup/rock.jpg
     info: PhD Student, UNSW
     start: March 2021
     advisor:
@@ -109,22 +109,10 @@ current-students:
       - Jon Eden
       - Wafa Johal
 
-  - name: <a href="https://chri-lab.github.io/people/jiahe/">Jiahe (Michael) Pan </a>
-    lastname: Pan
-    photo: backup/michael-pan.jpg
-    info: Research Assistamt
-    start: Jan 2024
-    education:
-      - B.S. from University of Melbourne
-    advisor:
-      - Denny Oetomo
-      - Jon Eden
-      - Wafa Johal
-
 postdoc:
   - name: Audrey Balaska
     lastname: Balaska
-    photo: Audrey/audrey.jpg
+    photo: backup/audrey.jpg
     info: Postdoctoral Research Fellow
     start: June 2024
     email: ""
